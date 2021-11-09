@@ -1,0 +1,20 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: var(--padding-l) calc(var(--padding-xl) * 1.5);
+  button {
+    padding: var(--padding-m) var(--padding-xl);
+    font-family: var(--font-family);
+    font-size: var(--font-size-s);
+    color: var(--basic-white-001);
+    border: 3px solid var(--basic-white-001);
+    font-weight: var(--font-weight-bold);
+    cursor: pointer;
+    background: transparent;
+    outline: none;
+    a {
+      text-decoration: none;
+      color: var(--basic-white-001);
+    }
+  }
+}
